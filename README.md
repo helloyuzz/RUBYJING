@@ -1,4 +1,4 @@
-# RUBY-JING - ForMyGirl.Jing
+# RUBY.JING
 
 ## VSCode开发环境搭建
 
