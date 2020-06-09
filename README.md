@@ -32,3 +32,19 @@ Click the __Edit in settings.json__ to customize the languages in emmet. And add
  The integrated terminal provides features for debugging, git, and console commands. You can develop Ruby applications and run it immediately in the terminal.
  ![](https://miro.medium.com/max/1280/1*_MLJ-Gfffg7DfPYHB30Q5w.png) 
  By default, VSCode terminal will automatically use the default shell in your computer. I recommend using __git bash__ if you're using either windows or mac.
+
+Demo Code:
+
+- app.rb
+ 
+```Ruby
+ puts "aa"
+
+first_num = gets.to_i
+
+second_num = gets.to_i
+
+print "Sum: #{first_num + second_num} "
+
+```
+ - ruby app.rb
