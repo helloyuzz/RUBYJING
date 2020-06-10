@@ -71,8 +71,23 @@ def aa(param)
     puts "this is method to print 'aa'_" + param
 end 
 
+## invoke aa_useParam
 aa('kkkkkkkk')
 
 if nil
     puts 'nil'
 end
+
+i = "13"
+puts i.to_i
+
+puts "1abc".to_i
+
+def some_method(number)
+    number = 7 # this is implicitly returned by the method
+end
+
+a = 5
+some_method(a)
+
+puts a
