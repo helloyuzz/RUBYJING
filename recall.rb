@@ -9,3 +9,8 @@ def fibonacci(number)
   x = gets.chomp.to_i
 
   puts fibonacci(x)
+
+  puts "input x:"
+  x = gets.chomp.to_i
+
+  puts "x:=#{x}"
