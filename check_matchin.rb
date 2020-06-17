@@ -49,6 +49,7 @@ class AA
     @@type='a'
     def initialize(id,type)
       @id,type = id,type
+      puts "initialize:@id=#@id,@type=#@type"
     end
     def show
         puts ''
@@ -60,4 +61,5 @@ end
 aa = AA.new(1,'aa')
 # print(aa)
 puts('-' * 40)
+
 puts(aa.show)
