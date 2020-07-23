@@ -1,4 +1,4 @@
-# RUBY.JING
+# RubyGems
 
 ## VSCode开发环境搭建
 
